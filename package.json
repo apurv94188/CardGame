@@ -1,0 +1,22 @@
+{
+  "name": "my-rest-api",
+  "version": "1.0.0",
+  "description": "learning node.js",
+  "main": "RestServer.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongodb": "^3.2.2",
+    "mongoose": "^5.5.0",
+    "morgan": "^1.9.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon CardServer.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
